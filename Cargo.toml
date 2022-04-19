@@ -1,0 +1,13 @@
+[package]
+name = "arb_bot_2"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rust_decimal = "1.23.1"
+ftx = "0.4.3"
+dotenv = "0.15.0"
+tokio = { version = "1", features = ["full"] }
+futures = "0.3.21"
